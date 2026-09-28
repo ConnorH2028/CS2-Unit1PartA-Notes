@@ -53,6 +53,42 @@ Or do it in one step!
 public class Main {
 
    public static void main(String []args) {
-      System.out.println("Hello World");
+      int num;
+      num = 5;
+      System.out.println("num");
+
+      //declare a variable
+      double myGradeAverage;
+      //assign a value
+      myGradeAverage = 95.0;
+      
+      //initialize a variable --declare and assign in one statement
+      double myDreamGrade = 100.0;
+
+      // we can format strings using concatenation (+)
+      System.out.println("My current grade is:" + myGradeAverage);
+      // print statement for ideal grade
+      System.out.println("I want my grade to be:" + myDreamGrade + "!");
+
+      // printing a quote using an escape sequence
+      // escape sequence always use a \
+      // \n give a new line
+      // we use \\ to actually print one \
+      System.out.println("My teacher \\alwasys says,\n\"Study for your test!\"");
+      System.out.println("My average grade \ is:95.0 \however\n\" my dream grade is:100.0\""+m);
+
+      System.out.print("Hi ");
+      System.out.println("there");
+      System.out.print("!");
+
+      //arithmetic operations (+ - * /)
+      // working with only ints, output will be an int
+      // int/int dose TRUNCATING DIVISION removes the decimal, dose not round
+      System.out.println(5*10);
+      // if we want to divide and get a decimal, we need to divide with a doubble
+      System.out.println(19.0/10.5);
+      // % gives us the remainder
+      System.out.println(12%10);
+
    }
 }

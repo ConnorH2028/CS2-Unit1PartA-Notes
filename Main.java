@@ -91,31 +91,66 @@ public class Main {
       // % gives us the remainder
      // System.out.println(12%10);
 
-      int myNum = 7;
-      int newNum = myNum;
-      newNum = 8;
+     // int myNum = 7;
+      //int newNum = myNum;
+     // newNum = 8;
 
-      System.out.println(myNum);
-      System.out.println(newNum);
+     // System.out.println(myNum);
+    //  System.out.println(newNum);
 
       // incrementing variable
-      myNum = myNum + 1;
-      myNum = myNum + 1;
+    //  myNum = myNum + 1;
+     // myNum = myNum + 1;
 
       // handles the assignment and the addition all at once
-      myNum++;
+      //myNum++;
 
       // decrementing
-      myNum= myNum -1;
-      myNum--;
+     // myNum= myNum -1;
+     // myNum--;
 
       //System.out.println(myNum);
       //System.out.println(newNum);
      // System.out.println(myNum);
 
      //working with Scanner class and text input
-     System.out.println("Greetings human! What is your name?");
-      Scanner scan = new  Scanner(System.in);
+     //System.out.println("Greetings human! What is your name?");
+   //Scanner scan = new  Scanner(System.in);
+   
+
+    /*lession 1.5 Notes - Casting
+    Casting allows us to change from one data type to another
+    
+    We cast using a "cast operator" written in () before our expression
+    */
+   double doubleNum = 5.0;
+   System.out.println((int) doubleNum / 2);
+
+   // cast from a double to an int, it will truncate outr double
+   //casting from an into to a double will add .0 to the end
+   System.out.println((int) 4.3);
+   System.out.println((double) 8);
+   double number;    // positive value from somewhere
+   double negNumber; // negative value from somewhere
+
+   number = 4.9;
+   negNumber = -3.6;
+   int nearestInt = (int)(number + 0.5);
+   int nearestNegInt = (int)(negNumber - 0.5);
+
+   System.out.println(nearestInt);
+   System.out.println(nearestNegInt);
+
+   int grade1 = 100;
+   int grade2 = 95;
+   int grade3 = 88;
+
+   int sum;
+   double average;
+   sum = grade1 + grade2 + grade3;
+   average = ((double) sum/3);
+   System.out.print (average);
+
 
    }
 }

@@ -151,6 +151,50 @@ public class Main {
    average = ((double) sum/3);
    System.out.print (average);
 
+   int score = 0;
+    System.out.println(score); // 0
+
+    score++;                   // +1
+    System.out.println(score); // 1
+
+    score *= 2;                // ×2
+    System.out.println(score); // 2
+
+    int penalty = 5;
+    score -= penalty / 2;      // 2 - (5/2) -> 2 - 2 -> 0 (integer division)
+    System.out.println(score); // 0
+
+    // 1) Add 3 to score using a compound operator
+    // score ...
+
+    // 2) Divide score by 2 using a compound operator
+    // score ...
+
+    // Compound operators
+
+    gradeAvarage = gradeAvarage + 1;
+    gradeAvarage += 1;
+    System.out.println(gradeAvarage);
+
+    gradeAvarage -= 2;
+    // class work
+   int score = 0;
+   System.out.println(score);
+   score ++;
+  System.out.println(score);
+  score *= 2;
+  System.out.println(score);
+    int penalty = 5;
+    score -= penalty/2;
+    System.out.println(score);
+
+    
+    int a = 5;
+    int b = 8;
+    int c = 3;
+    System.out.println(a+b/c*2);
+
+
 
    }
 }

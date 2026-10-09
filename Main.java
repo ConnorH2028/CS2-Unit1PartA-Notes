@@ -193,7 +193,14 @@ public class Main {
     int b = 8;
     int c = 3;
     System.out.println(a+b/c*2);
-
+/*
+Precondition
+- before the method runs
+- what must be true
+Postcondition
+after methods runs
+what must be true
+ */
     
 
 
